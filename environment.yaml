@@ -1,0 +1,11 @@
+name: ip
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - Pillow
+  - opencv
+  - matplotlib
