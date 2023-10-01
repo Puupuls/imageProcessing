@@ -1,3 +1,8 @@
+# Realizēt histogrammas vienmērīgošanas algoritmu
+# Implementācija paredzēta krāsainu attēlu apstrādei,
+# implementēta gan krāsu izlīdināšana RGB formātā, gan vērtību izlīdzināšana HSV krāsu formātam
+# Katrs no tiem dod cita veida rezultātu, jo izlīdzinot RGB tiek izmainīts krāsu balanss attēlā
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -102,16 +107,16 @@ def equalize_histogram_hsv(image: np.ndarray, plot=False):
 
     if plot:
         plt.subplot(4, 2, 1)
-        plt.plot(hist_value, color='r')
+        plt.plot(hist_value, color='#999')
 
         plt.subplot(4, 2, 3)
-        plt.plot(cum_hist_value, color='r')
+        plt.plot(cum_hist_value, color='#999')
 
         plt.subplot(4, 2, 2)
-        plt.plot(hist_value_done, color='r')
+        plt.plot(hist_value_done, color='#999')
 
         plt.subplot(4, 2, 4)
-        plt.plot(cum_hist_value_done, color='r')
+        plt.plot(cum_hist_value_done, color='#999')
 
         plt.subplot(2, 2, 3)
         plt.imshow(cv2.cvtColor(image, cv2.COLOR_HSV2RGB))
