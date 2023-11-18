@@ -24,3 +24,11 @@ Implementēts: 2023.10.17
 Iesniegts: -
 
 Implementācija: [fourier_transform.py](fourier_transform/fourier_transform.py)
+
+
+### 5. Izstrādāt programmu, kas doto attēlu palielina 4 reizes, lietojot bilineāro (vai bikubisko) interpolāciju.
+Implementēts: 2023.11.18
+
+Iesniegts: -
+
+Implementācija: [upscale.py](upscale/upscale.py)
