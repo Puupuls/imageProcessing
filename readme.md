@@ -32,3 +32,11 @@ Implementēts: 2023.11.18
 Iesniegts: -
 
 Implementācija: [upscale.py](upscale/upscale.py)
+
+
+### 8. Izstrādāt programmu, kas attēlā nomaina krāsas, izmantojot HSI krāsu modeļa H komponenti.
+Implementēts: 2023.11.24
+
+Iesniegts: -
+
+Implementācija: [hsi_rotate.py](hsi_rotate/hsi_rotate.py)
