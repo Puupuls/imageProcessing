@@ -21,7 +21,7 @@ Demo: https://colab.research.google.com/github/Puupuls/imageProcessing/blob/mast
 ### 3. Realizēt filtrēšanu ar Furjē transformācijas palīdzību
 Implementēts: 2023.10.17
 
-Iesniegts: -
+Iesniegts: MD2
 
 Implementācija: [fourier_transform.py](fourier_transform/fourier_transform.py)
 
@@ -29,7 +29,7 @@ Implementācija: [fourier_transform.py](fourier_transform/fourier_transform.py)
 ### 5. Izstrādāt programmu, kas doto attēlu palielina 4 reizes, lietojot bilineāro (vai bikubisko) interpolāciju.
 Implementēts: 2023.11.18
 
-Iesniegts: -
+Iesniegts: MD2
 
 Implementācija: [upscale.py](upscale/upscale.py)
 
@@ -37,6 +37,14 @@ Implementācija: [upscale.py](upscale/upscale.py)
 ### 8. Izstrādāt programmu, kas attēlā nomaina krāsas, izmantojot HSI krāsu modeļa H komponenti.
 Implementēts: 2023.11.24
 
-Iesniegts: -
+Iesniegts: MD2
 
 Implementācija: [hsi_rotate.py](hsi_rotate/hsi_rotate.py)
+
+
+### 9.  Izstrādāt programmu, kas koriģē krāsas no kvēlspuldzes apgaismojuma uz apmākušās dienas gaismu.
+Implementēts: 2023.11.26
+
+Iesniegts: MD2
+
+Implementācija: [hsi_rotate.py](color_temp/color_temp.py)
