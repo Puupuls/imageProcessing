@@ -47,4 +47,12 @@ Implementēts: 2023.11.26
 
 Iesniegts: MD2
 
-Implementācija: [hsi_rotate.py](color_temp/color_temp.py)
+Implementācija: [color_temp.py](color_temp/color_temp.py)
+
+
+### 10.  Realizēt Sobela un Laplasa operatorus, pārbaudīt tos attēla robežu noteikšanai.
+Implementēts: 2023.11.26
+
+Iesniegts: MD3
+
+Implementācija: [edge_detect.py](edge_detect/edge_detect.py)
