@@ -33,6 +33,12 @@ Iesniegts: MD2
 
 Implementācija: [upscale.py](upscale/upscale.py)
 
+### 7.  Realizēt attēlu saspiešanu ar paredzēšanas metodi.
+Implementēts: 2023.12.21
+
+Iesniegts: MD3
+
+Implementācija: [image_compression.py](image_compression/image_compression.py)
 
 ### 8. Izstrādāt programmu, kas attēlā nomaina krāsas, izmantojot HSI krāsu modeļa H komponenti.
 Implementēts: 2023.11.24
@@ -51,7 +57,7 @@ Implementācija: [color_temp.py](color_temp/color_temp.py)
 
 
 ### 10.  Realizēt Sobela un Laplasa operatorus, pārbaudīt tos attēla robežu noteikšanai.
-Implementēts: 2023.11.26
+Implementēts: 2023.12.20
 
 Iesniegts: MD3
 
